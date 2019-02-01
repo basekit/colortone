@@ -2,6 +2,7 @@
     "name": "basekit/colortone",
     "description": "Generate a palette of the lightest, darkest, and most vibrant colors from a set",
     "homepage": "https://github.com/basekit/colortone",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mikey Clarke",
