@@ -1,0 +1,28 @@
+{
+    "name": "basekit/colortone",
+    "description": "Generate a palette of the lightest, darkest, and most vibrant colors from a set",
+    "homepage": "https://github.com/basekit/colortone",
+    "authors": [
+        {
+            "name": "Mikey Clarke",
+            "email": "mikey@basekit.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "basekit/colorworks": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ColorTone\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
